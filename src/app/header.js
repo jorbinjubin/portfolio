@@ -39,13 +39,6 @@ export default function Header() {
             </span>
           </Link>
 
-          {/* Button 3 */}
-          <Link href="/bib">
-            <span className="px-4 py-2 bg-gold text-dGrey rounded hover:bg-dGrey hover:text-gold transition cursor-pointer">
-              Bibliography
-            </span>
-          </Link>
-
           {/* Button 5 with Dropdown */}
           <div
             className="relative group"
