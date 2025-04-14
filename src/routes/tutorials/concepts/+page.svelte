@@ -8,7 +8,7 @@
 		>
 			<h2 class="font-semibold jetbrains text-4xl sm:text 5xl md:text-6xl pb-5 border-b">Concepts</h2>
             <h3 class="font-semibold jetbrains text-3xl sm:text">
-                Concepts
+                01. 
             </h3>
             <p class="text-lg pb-5">Concepts describe basic programming knowledge like I/O, conditionals, loops, and more. They apply to all programming languages.</p>
             <h3 class="font-semibold jetbrains text-3xl sm:text">

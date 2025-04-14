@@ -9,7 +9,7 @@
     ]
 </script>
 
-<header class={"sticky z-[10] top-0 duration-400 w-full " + (y > 0 ? "py-6 bg-black border-b-2  border-cyan-500" : "py-6 bg-transparent border-transparent")}>
+<header class={"sticky z-[10] top-0 duration-400 w-full " + (y > 0 ? "py-4 bg-black border-b-2  border-cyan-500" : "py-6 bg-transparent border-transparent")}>
 	<div class="max-w-[1400px] mx-auto px-5 flex items-center justify-between">
 			<a href="/" class="duration-200 text-lg hover:text-fuchsia-500 text-cyan-500 hover:translate-y-[-2px]">
 				<p>ICS4U Portfolio</p>
