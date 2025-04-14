@@ -6,12 +6,9 @@
 		<div
 			class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10"
 		>
-			<h2 class="font-semibold jetbrains text-4xl sm:text 5xl md:text-6xl">Tutorials</h2>
-			<p class="text-base sm:text-lg md:text-xl pb-8 border-b">
-				Here, you will find some tutorials that I have created.
-			</p>
+			<h2 class="font-semibold jetbrains text-4xl sm:text 5xl md:text-6xl pb-5 border-b">Concepts</h2>
             <h3 class="font-semibold jetbrains text-3xl sm:text">
-                <a href="/tutorials/concepts" class="duration-200 text-cyan-500 hover:text-fuchsia-500 ">Concepts</a>
+                Concepts
             </h3>
             <p class="text-lg pb-5">Concepts describe basic programming knowledge like I/O, conditionals, loops, and more. They apply to all programming languages.</p>
             <h3 class="font-semibold jetbrains text-3xl sm:text">
