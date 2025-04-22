@@ -35,6 +35,7 @@
 	"description": "Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).",
 	"main": "eslint.config.js",
 	"dependencies": {
+		"@fontsource/jetbrains-mono": "^5.2.5",
 		"acorn": "^8.14.1",
 		"acorn-jsx": "^5.3.2",
 		"ajv": "^6.12.6",
