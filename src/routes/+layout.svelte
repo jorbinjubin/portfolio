@@ -24,7 +24,6 @@
 
 	<Footer />
 
-	<!-- Scroll to top button with proper transitions -->
 	<button
 		on:click={goTop}
 		class="fixed bottom-6 right-6 p-3 rounded-full bg-gray-800 text-white shadow-lg
