@@ -15,7 +15,7 @@
             </h3>
             <p class="text-lg pb-5">Concepts describe basic programming knowledge like I/O, conditionals, loops, and more. They apply to all programming languages.</p>
             <h3 class="font-semibold jetbrains text-3xl sm:text">
-                Algorithms
+                <a href="/tutorials/algorithms" class="duration-200 text-cyan-500 hover:text-fuchsia-500 ">Algorithms</a>
             </h3>
             <p class="text-lg pb-5">Algorithms are a sequence of instructions that are designed to solve a problem. They use combinations of concepts to quickly or efficiently do a task. Some examples are searching, sorting, and calculation.</p>
             <h3 class="font-semibold jetbrains text-3xl sm:text">

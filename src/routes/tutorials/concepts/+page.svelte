@@ -11,20 +11,7 @@
 	import C10 from '../../../content/concepts/10.md';
 	import C11 from '../../../content/concepts/11.md';
 	import C12 from '../../../content/concepts/12.md';
-
-
-	import { page } from '$app/stores';
-  import { goto } from '$app/navigation';
   
-  function goBack() {
-    if (window.history.length > 1) {
-      history.back();
-    } else {
-      const segments = $page.url.pathname.split('/').filter(Boolean);
-      segments.pop();
-      goto(segments.join('/') || '/');
-    }
-  }
 </script>
 
 <main class="flex flex-col flex-1 p-4">
@@ -45,7 +32,7 @@
 			<!-- svelte-ignore a11y_click_events_have_key_events -->
 			<!-- svelte-ignore a11y_no_static_element_interactions -->
 			<!-- svelte-ignore a11y_missing_attribute -->
-			<a class="text-lg text-cyan-0 hover:text-fuchsia-500 cursor-pointer" on:click|preventDefault={goBack}> ← Back </a>
+			<a class="text-lg text-cyan-0 hover:text-fuchsia-500 cursor-pointer" href="/tutorials"> ← Back </a>
 		</div>
 		<div class="pb-3"/>
 		<section id="conditionals">
