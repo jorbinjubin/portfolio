@@ -47,19 +47,19 @@
   
           {#if searchingOpen}
             <div
-              class="mt-2 ml-4 bg-neutral-700 rounded-md shadow-md p-2 w-full"
+              class=" ml-4 rounded-md p-2 w-full"
               transition:slide={{ duration: 300 }}
             >
               <div class="flex flex-col space-y-2">
                 <a
                   href="#sequential-search"
-                  class="block text-sm text-cyan-500 hover:text-fuchsia-500 p-2 rounded ml-4"
-                  >• Sequential Search</a
+                  class="block text-md text-cyan-500 hover:text-fuchsia-500 ml-4"
+                  >Sequential Search</a
                 >
                 <a
                   href="#binary-search"
-                  class="block text-sm text-cyan-500 hover:text-fuchsia-500 p-2 rounded ml-4"
-                  >• Binary Search</a
+                  class="block text-md text-cyan-500 hover:text-fuchsia-500 ml-4"
+                  >Binary Search</a
                 >
               </div>
             </div>
@@ -83,19 +83,19 @@
   
           {#if sortingOpen}
             <div
-              class="mt-2 ml-4 bg-neutral-700 rounded-md shadow-md p-2"
+              class="mt-2 ml-4 rounded-md"
               transition:slide={{ duration: 300 }}
             >
               <div class="flex flex-col space-y-2">
                 <a
                   href="#gnome-sort"
-                  class="block text-sm text-cyan-500 hover:text-fuchsia-500 hover:bg-neutral-700 p-2 rounded ml-4"
-                  >• Gnome Sort</a
+                  class="block text-md text-cyan-500 hover:text-fuchsia-500 ml-4"
+                  >Gnome Sort</a
                 >
                 <a
                   href="#quicksort"
-                  class="block text-sm text-cyan-500 hover:text-fuchsia-500 hover:bg-neutral-700 p-2 rounded ml-4"
-                  >• Quicksort</a
+                  class="block text-md text-cyan-500 hover:text-fuchsia-500 ml-4"
+                  >Quicksort</a
                 >
               </div>
             </div>
@@ -192,7 +192,7 @@
         All recursive algorithms must follow 3 rules: <br/>
         1. All recursive algorithms must have a base case, which is the simplest case that can be solved without recursion. <br/>
         2. All recursive algorithms must have a recursive case, which is the case that calls itself.<br/>
-        3. All recursive algorithms must move towards the base case by modifiny the input parameters to approach the base case.<br/>
+        3. All recursive algorithms must move towards the base case by modifying the input parameters to approach the base case.<br/>
         <br/>
         The following functions demonstrate examples of poorly implemented recursive algorithms:
         <C7/>

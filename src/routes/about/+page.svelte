@@ -47,6 +47,25 @@
 			<h2 class="font-semibold jetbrains text-4xl sm:text-5xl md:text-6xl pb-8 border-b">
 				About Me
 			</h2>
+			<div class="flex flex-col sm:flex-row items-center gap-6 mb-6">
+				<!-- Image (left) -->
+				<img 
+					src="/image.png" 
+					alt="Justin" 
+					class="w-48 h-48 sm:w-64 sm:h-64 rounded-full object-cover border-4 border-cyan-500 shadow-lg"
+				>
+				
+				<!-- Text (right) -->
+				<div class="text-center sm:text-left rounded-lg bg-neutral-800 p-6 ">
+					<h3 class="text-2xl font-bold text-cyan-400 mb-2">Justin</h3>
+					<p class="text-gray-200">
+						Grade 11 MaCS | William Lyon Mackenzie Collegiate Institute | Toronto, ON <br/>
+						Linux enthusiast | Woodturner | CNC enthusiast | Aspiring Engineer | Food Enjoyer<br/>
+						Minecraft | Factorio | Terraria | War Thunder <br/>
+						Physics | Mathematics | Computer Science | Technological Design <br/>
+					</p>
+				</div>
+			</div>
 			Here, you will find some information about me. Use the tabs below to choose how detailed a description you want.
 			
 			<!-- Combined Tab Group -->

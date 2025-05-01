@@ -4,8 +4,9 @@
     let tabs=[
         {name: "Projects", link: "/projects"},
         {name: "Tutorials", link: "/tutorials"},
+        {name: "Forensics", link: "/forensics"},
         {name: "About Me", link: "/about"},
-        {name: "Bibliography", link: "/bib"}
+        {name: "Bibliography", link: "/bib"},
     ]
 </script>
 

@@ -19,7 +19,7 @@
             </h3>
             <p class="text-lg pb-5">Algorithms are a sequence of instructions that are designed to solve a problem. They use combinations of concepts to quickly or efficiently do a task. Some examples are searching, sorting, and calculation.</p>
             <h3 class="font-semibold jetbrains text-3xl sm:text">
-                OOP
+                <a href="/tutorials/oop" class="duration-200 text-cyan-500 hover:text-fuchsia-500 ">OOP</a>
             </h3>
             <p class="text-lg pb-5">
                 OOP, or <a href="https://wikipedia.org/Object-oriented_programming" class="duration-200 text-cyan-500 hover:text-fuchsia-500">Object Oriented Programming</a>, is a programming paradigm based on the idea that everything is an object. These objects can have data and do things, which describes attributes (variables) and methods.

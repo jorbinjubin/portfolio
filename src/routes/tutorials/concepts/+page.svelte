@@ -55,7 +55,9 @@
 			<div class="pb-8" />
 			There are 2 more ways to write if statements. One is a shortened version, whilst the other is known
 			as a ternary statement. All of the following implementations are functionally identical to a regular
-			if-else statement.
+			if-else statement.<br/>
+			When using if statements, ensure that the brackets are matching and if using nested if statements, ensure that the scope of each statement is as intended.
+
 			<C5 />
 			<div class="pb-8" />
 		
@@ -98,7 +100,8 @@
 			They allow you to dynamically increase the size, at the cost of extra memory and performance. Their
 			basic methods are as follows:
 			<C9 />
-			An ArrayList will dynamically change its size by doubling it when full.
+			An ArrayList will dynamically change its size by doubling it when full. <br/>
+			Note that arrays used arr[n] notation wilst ArrayLists use arr.get(n), which is a common mistake for beginners.
 			<div class="pb-10" />
 		</section>
 	</div>
